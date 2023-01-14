@@ -1,0 +1,119 @@
+/* ---------- GERAL ---------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: #222;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+}
+
+/* ---------- CONTAINER ---------- */
+
+.container{
+    background-color: #333;
+    max-width: 800px;
+    margin: auto;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ---------- DIV DE ADICIONAR ---------- */
+
+.controle{
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #222;
+    margin: 10px;
+    padding: 10px;
+}
+
+#input{
+    flex-grow: 1;
+    background-color: #222;
+    border-bottom: 2px solid #666;
+    color: #ddd;
+    padding: 0px 20px;
+    font-size: 0.95rem;
+    font-family: 'Roboto', sans-serif;
+    transition: border-bottom-color 0.8s;
+}
+
+#input:hover{
+    border-bottom-color: #00baf2;
+}
+
+#input:focus{
+    outline: none;
+}
+
+#botao{
+    background-color: #222;
+}
+
+#botao > svg{
+    width: 24px;
+    margin: 0px 5px;
+    fill: #666;
+    transition: fill 0.5s;
+}
+
+#botao > svg:hover{
+    fill: #00baf2;
+}
+
+.item-de-lista{
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.circulo{
+    height:16px;
+    margin: 0px 7px; 
+    width:16px;
+    border:2px solid #666; 
+    border-radius:50%;
+    transition: border-color 0.5s;
+}
+
+.circulo:hover{
+    border-color: #00baf2;
+}
+
+.black{
+    background-color: #222;
+}
+
+.blue{
+    background-color: #00baf2;
+}
+
+.texto{
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.item-de-lista > svg{
+    fill: #666;
+    width: 30px;
+    display: none;
+    transition: fill 0.5s;
+}
+
+.item-de-lista > svg:hover{
+    fill: #00baf2;
+}
